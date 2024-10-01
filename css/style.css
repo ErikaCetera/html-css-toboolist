@@ -81,7 +81,7 @@ body {
     border-radius: 50%;
     line-height: 15px;
     text-align: center;
-    
+
 }
 
 .not-done {
@@ -96,62 +96,49 @@ body {
 }
 
 
-.editorial{
-    display: inline-block;
+.editorial {
+
     background-color: rgb(0, 145, 255);
-    width: 70px;
-    height: 15px;
-    border-radius: 50px;
-    line-height: 15px;
-    text-align: center ;
-    font-size: 10px;
-}
-.goals{display: inline-block;
-    background-color: #a545d2;
-    width: 70px;
-    height: 15px;
-    border-radius: 50px;
-    line-height: 15px;
-    text-align: center ;
-    font-size: 10px;
-}
-.recruting{display: inline-block;
-    background-color: #45d2ad;
-    width: 70px;
-    height: 15px;
-    border-radius: 50px;
-    line-height: 15px;
-    text-align: center ;
-    font-size: 10px;
+
 }
 
-.mobile{
-       display: inline-block;
-        background-color: #d28e45;
-        width: 70px;
-        height: 15px;
-        border-radius: 50px;
-        line-height: 15px;
-        text-align: center ;
-        font-size: 10px;
+.goals {
+    background-color: #a545d2;
+
+
 }
-.website{
-    display: inline-block;
-        background-color: #d12190;
-        width: 70px;
-        height: 15px;
-        border-radius: 50px;
-        line-height: 15px;
-        text-align: center ;
-        font-size: 10px;
+
+.recruting {
+    background-color: #45d2ad;
+
 }
-.sales{
+
+.mobile {
+
+    background-color: #d28e45;
+
+}
+
+.website {
+
+    background-color: #d12190;
+
+}
+
+.sales {
+
+    background-color: #0dd45d;
+
+}
+
+.block {
+    color: #ffffff;
     display: inline-block;
-        background-color: #0dd45d;
-        width: 70px;
-        height: 15px;
-        border-radius: 50px;
-        line-height: 15px;
-        text-align: center ;
-        font-size: 10px;
+    width: 70px;
+    height: 15px;
+    border-radius: 50px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+
 }
