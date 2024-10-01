@@ -5,8 +5,10 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* BODY */
-body{ background-color:rgb(243, 240, 240);
+body {
+    background-color: rgb(243, 240, 240);
 
 }
 
@@ -16,7 +18,7 @@ body{ background-color:rgb(243, 240, 240);
     background-color: #ffffff;
 }
 
-.logo{
+.logo {
     display: inline-block;
     vertical-align: middle;
     font-size: 30px;
@@ -24,42 +26,132 @@ body{ background-color:rgb(243, 240, 240);
 
 
 /* CONTAINER */
-.container{
+.container {
     width: 60%;
     max-width: 1000px;
-    height: 1000px;
+    height: 500px;
     background-color: #ffffff;
-    margin:50px auto;
-    
+    margin: 50px auto;
+
 }
 
 /* NAV */
 
 
-   
-#but-task{
+
+#but-task {
     width: 80px;
     height: 30px;
     color: #ffffff;
     background-color: rgb(48, 151, 236);
-    border:none;
+    border: none;
 }
-#but-section{
+
+#but-section {
     width: 100px;
     height: 30px;
     color: rgb(183, 177, 177);
     background-color: #ffffff;
     border-color: bisque;
-    border:1px solid rgb(183, 177, 177);
+    border: 1px solid rgb(183, 177, 177);
 }
 
-.but{border-radius: 5px;
+.but {
+    border-radius: 5px;
     text-align: center;
 }
 
-.nav{
+.nav {
     padding: 20px;
     border-bottom: 3px solid rgb(243, 240, 240);
 }
 
 /* MAIN */
+.todolist,
+.sublist {
+    list-style: none;
+    margin: 20px
+}
+
+.done {
+    width: 15px;
+    height: 15px;
+    color: #008000;
+    border: 1px solid #008000;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+    
+}
+
+.not-done {
+    color: #ff0000;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ff0000;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+
+}
+
+
+.editorial{
+    display: inline-block;
+    background-color: rgb(0, 145, 255);
+    width: 70px;
+    height: 15px;
+    border-radius: 50px;
+    line-height: 15px;
+    text-align: center ;
+    font-size: 10px;
+}
+.goals{display: inline-block;
+    background-color: #a545d2;
+    width: 70px;
+    height: 15px;
+    border-radius: 50px;
+    line-height: 15px;
+    text-align: center ;
+    font-size: 10px;
+}
+.recruting{display: inline-block;
+    background-color: #45d2ad;
+    width: 70px;
+    height: 15px;
+    border-radius: 50px;
+    line-height: 15px;
+    text-align: center ;
+    font-size: 10px;
+}
+
+.mobile{
+       display: inline-block;
+        background-color: #d28e45;
+        width: 70px;
+        height: 15px;
+        border-radius: 50px;
+        line-height: 15px;
+        text-align: center ;
+        font-size: 10px;
+}
+.website{
+    display: inline-block;
+        background-color: #d12190;
+        width: 70px;
+        height: 15px;
+        border-radius: 50px;
+        line-height: 15px;
+        text-align: center ;
+        font-size: 10px;
+}
+.sales{
+    display: inline-block;
+        background-color: #0dd45d;
+        width: 70px;
+        height: 15px;
+        border-radius: 50px;
+        line-height: 15px;
+        text-align: center ;
+        font-size: 10px;
+}
