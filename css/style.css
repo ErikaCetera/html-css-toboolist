@@ -5,10 +5,15 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* BODY */
+body{ background-color:rgb(243, 240, 240);
+
+}
 
 /* HEADER */
 .head {
-    padding: 20px;
+    padding: 10px;
+    background-color: #ffffff;
 }
 
 .logo{
@@ -19,8 +24,42 @@
 
 
 /* CONTAINER */
+.container{
+    width: 60%;
+    max-width: 1000px;
+    height: 1000px;
+    background-color: #ffffff;
+    margin:50px auto;
+    
+}
 
 /* NAV */
 
+
+   
+#but-task{
+    width: 80px;
+    height: 30px;
+    color: #ffffff;
+    background-color: rgb(48, 151, 236);
+    border:none;
+}
+#but-section{
+    width: 100px;
+    height: 30px;
+    color: rgb(183, 177, 177);
+    background-color: #ffffff;
+    border-color: bisque;
+    border:1px solid rgb(183, 177, 177);
+}
+
+.but{border-radius: 5px;
+    text-align: center;
+}
+
+.nav{
+    padding: 20px;
+    border-bottom: 3px solid rgb(243, 240, 240);
+}
 
 /* MAIN */
