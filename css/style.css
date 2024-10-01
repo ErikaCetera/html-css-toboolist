@@ -29,7 +29,7 @@ body {
 .container {
     width: 60%;
     max-width: 1000px;
-    height: 500px;
+    height: 600px;
     background-color: #ffffff;
     margin: 50px auto;
 
@@ -72,6 +72,8 @@ body {
     list-style: none;
     margin: 20px
 }
+
+ul>li{margin: 20px;}
 
 .done {
     width: 15px;
